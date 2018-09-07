@@ -5,5 +5,3 @@ COPY ./config/default.conf /etc/nginx/conf.d
 
 WORKDIR /usr/share/nginx/html
 COPY ./html /usr/share/nginx/html
-
-EXPOSE 8080
